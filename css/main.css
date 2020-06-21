@@ -311,12 +311,20 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
 body {
   color: #F9C802;
   background: #000; }
+
+.btn {
+  font-size: 21px;
+  border: 1px solid black;
+  background-color: teal;
+  border-radius: 4px; }
 
 /*# sourceMappingURL=main.css.map */
