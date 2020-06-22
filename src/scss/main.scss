@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 html {
@@ -15,6 +16,7 @@ html {
 body {
   color: $yellow;
   background: $darkblue;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main {
@@ -25,5 +27,14 @@ body {
 
   &__wrap {
     text-align: center;
+    position: relative;
+
+    &--counter {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
   }
 }
