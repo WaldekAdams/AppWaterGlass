@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
   <meta charset="UTF-8" />
@@ -16,20 +16,25 @@
   <meta property="og:url" content="" />
   <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
-
   <link rel="manifest" href="manifest.json" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
-
   <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
-
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-  <h1>Hello world - with simple PWA support!</h1>
-  <button class="btn">Start!</button>
-  <script src="js/main.js"></script>
+  <main class="main">
+    <div class="main__wrap">
+      <img class="main__wrap--icon" src="/assets/img/water-glass (1).svg" alt="water in glass">
+      <div class="main__wrap--counter main__wrap--counter--js">7</div>
+    </div>
+
+    <button class="main__button--add main__button--add--js">dodaj szklankę</button>
+    <button class="main__button--remove main__button--remove--js">usuń szklankę</button>
+
+  </main>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
