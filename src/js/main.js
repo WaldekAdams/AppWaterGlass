@@ -20,12 +20,21 @@ const btnAdd = document.querySelector('.main__button--add--js');
 const btnRemove = document.querySelector('.main__button--remove--js');
 let counter = 0;
 
+divCounter.textContent = counter;
 btnAdd.addEventListener('click', () => {
-  console.log('dodaje')
+  console.log('dodaje');
+  if (counter < 9) {
+    counter++;
+    divCounter.textContent = counter;
+  }
 })
 
 btnRemove.addEventListener('click', () => {
-  console.log('odejmuje')
+  console.log('odejmuje');
+  if (counter > 0) {
+    counter--;
+    divCounter.textContent = counter;
+  }
 })
 
 
