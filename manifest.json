@@ -1,8 +1,8 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "name": "HydrAPP",
+  "short_name": "HydrAPP",
+  "theme_color": "#3767AD",
+  "background_color": "#3767AD",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/AppWaterGlass/",
