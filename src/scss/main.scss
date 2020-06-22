@@ -14,12 +14,16 @@ html {
 
 body {
   color: $yellow;
-  background: $violet;
+  background: $darkblue;
 }
 
-.btn {
-  font-size: 21px;
-  border: 1px solid black;
-  background-color: teal;
-  border-radius: 4px;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20vh;
+
+  &__wrap {
+    text-align: center;
+  }
 }
